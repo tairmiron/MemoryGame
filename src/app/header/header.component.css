@@ -1,0 +1,20 @@
+.top_Page {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+.top_Page img {
+  padding: 15px;
+}
+.top_Page h1 {
+  padding: 20px;
+  font-size: 3rem;
+  font-family: cursive;
+  color:white;
+}
+.top_Page h4 {
+  font-size: 1.5rem;
+  font-family: cursive;
+  color:white;
+}

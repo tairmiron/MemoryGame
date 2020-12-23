@@ -1,0 +1,5 @@
+<div class="cardFrame">
+    <div class="perCard" *ngFor="let card of cards">
+      <app-card (cardFlipEvent)="cardFliped(card)" [card]="card"></app-card>
+    </div>
+</div>

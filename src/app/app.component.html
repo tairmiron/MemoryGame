@@ -1,0 +1,9 @@
+<div>
+  <app-header></app-header>
+  <app-reset (resetEvent)="restartGame()" [mistake]="mistake"></app-reset>
+  <br/><br/>
+  <div>
+    <app-cards (messageEvent)="resCardFliped($event)" [cards]="cards"></app-cards>
+  </div>
+  <app-done [awsome]="awsome"></app-done>
+</div>

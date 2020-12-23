@@ -1,0 +1,39 @@
+
+.restart_Btn {
+  width: auto;
+  padding: 10px 20px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-radius: 50px;
+  border: 2px solid	rgb(238, 67, 48);
+  color: rgb(238, 67, 48);
+  background-color: rgba(255, 255, 255, 0);
+  box-shadow: 1px 1px 1px white, -1px -1px 1px white;
+  cursor: pointer;
+  margin: center;
+  outline: none;
+}
+.restart_Btn:hover {
+  background-color:	rgb(238, 67, 48);
+  color:white;
+  font-size: 1.7rem;
+  transition: ease-out 0.2s;
+  transform: rotate(2deg);
+}
+.restart_Btn:active {
+  background-color:	rgb(238, 67, 48);
+  color:white;
+  font-size: 1.4rem;
+}
+.center-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+.center-button h2 {
+  padding-left: 50px;
+  font-size: 1.5rem;
+  font-family: cursive;
+  color:white;
+}

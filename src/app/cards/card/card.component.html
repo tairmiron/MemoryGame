@@ -1,0 +1,10 @@
+<div class="flip-card" (click)="cardFliped(card)">
+  <div class="flip-card-inner">
+    <div *ngIf="!card.isCardOpen" class="flip-card-front">
+      <img class="backCardImage" src="../../assets/images/funatix.png" alt="backCard">
+    </div>
+    <div class="flip-card-back">
+      <img *ngIf="card.isCardOpen" class="LogoBack" src="../../assets/images/{{card.img}}" height="50"/>  <br>
+    </div>
+  </div>
+</div>
